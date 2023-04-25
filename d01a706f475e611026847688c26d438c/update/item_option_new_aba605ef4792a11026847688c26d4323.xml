@@ -25,7 +25,7 @@
         <help_text/>
         <hidden>false</hidden>
         <include_none>true</include_none>
-        <instructions/>
+        <instructions><![CDATA[<p>Purpose of join would be on daily base tution or Camp</p>]]></instructions>
         <layout>normal</layout>
         <list_table/>
         <lookup_label/>
@@ -35,7 +35,7 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
@@ -67,13 +67,13 @@
 */]]></save_script>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
-        <show_help>false</show_help>
+        <show_help>true</show_help>
         <show_help_on_load>false</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>akanksha</sys_created_by>
-        <sys_created_on>2023-04-25 10:42:29</sys_created_on>
+        <sys_created_on>2023-04-25 10:51:02</sys_created_on>
         <sys_id>aba605ef4792a11026847688c26d4323</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>Purpose of Join</sys_name>
@@ -82,7 +82,7 @@
         <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
         <sys_update_name>item_option_new_aba605ef4792a11026847688c26d4323</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-04-25 10:50:57</sys_updated_on>
+        <sys_updated_on>2023-04-25 10:59:15</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>

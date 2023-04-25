@@ -6,7 +6,7 @@
         <question display_value="Trained On">bba605ef4792a11026847688c26d43b3</question>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>akanksha</sys_created_by>
-        <sys_created_on>2023-04-25 10:42:29</sys_created_on>
+        <sys_created_on>2023-04-25 10:51:02</sys_created_on>
         <sys_id>bba605ef4792a11026847688c26d43c6</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Karate</sys_name>
@@ -15,7 +15,7 @@
         <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
         <sys_update_name>question_choice_bba605ef4792a11026847688c26d43c6</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-04-25 10:50:54</sys_updated_on>
+        <sys_updated_on>2023-04-25 10:59:10</sys_updated_on>
         <text>Karate</text>
         <value>karate</value>
     </question_choice>
