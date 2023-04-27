@@ -31,7 +31,7 @@
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
         <name>Star Foundation </name>
-        <no_attachment_v2>false</no_attachment_v2>
+        <no_attachment_v2>true</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
         <no_delivery_time_v2>false</no_delivery_time_v2>
@@ -41,7 +41,7 @@
         <no_quantity>false</no_quantity>
         <no_quantity_v2>false</no_quantity_v2>
         <no_search>false</no_search>
-        <no_wishlist_v2>false</no_wishlist_v2>
+        <no_wishlist_v2>true</no_wishlist_v2>
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
@@ -93,7 +93,7 @@
         <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
         <sys_update_name>sc_cat_item_producer_53a681af4792a11026847688c26d4396</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-04-25 10:59:16</sys_updated_on>
+        <sys_updated_on>2023-04-27 15:33:33</sys_updated_on>
         <table_name>x_698230_my_custom_star_education</table_name>
         <taxonomy_topic/>
         <template/>

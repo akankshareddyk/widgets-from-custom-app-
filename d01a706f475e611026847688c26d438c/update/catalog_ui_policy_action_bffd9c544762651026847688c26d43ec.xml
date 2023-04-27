@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Star Foundation ">53a681af4792a11026847688c26d4396</catalog_item>
+        <catalog_variable>IO:d7a605ef4792a11026847688c26d431d</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>200</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>akanksha</sys_created_by>
+        <sys_created_on>2023-04-27 15:31:53</sys_created_on>
+        <sys_id>bffd9c544762651026847688c26d43ec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>school</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_bffd9c544762651026847688c26d43ec</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-04-27 15:33:24</sys_updated_on>
+        <table/>
+        <ui_policy display_value="purpose of join ">b7fd9c544762651026847688c26d43e4</ui_policy>
+        <variable>school</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>
