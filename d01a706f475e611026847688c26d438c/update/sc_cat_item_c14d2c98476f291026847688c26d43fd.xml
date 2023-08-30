@@ -5,7 +5,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <category display_value="Office">109cdff8c6112276003b17991a09ad65</category>
-        <checked_out>false</checked_out>
+        <checked_out>true</checked_out>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan/>

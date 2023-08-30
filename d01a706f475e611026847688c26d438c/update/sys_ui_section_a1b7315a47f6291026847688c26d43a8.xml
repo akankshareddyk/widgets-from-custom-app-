@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="STAR EDUCATION" section_id="a1b7315a47f6291026847688c26d43a8" sys_domain="global" table="x_698230_my_custom_star_education" version="3" view="Workspace-My-custom-App-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-16 13:27:24</sys_created_on>
+            <sys_id>21b7715a47f6291026847688c26d4398</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">7b7c1fc0476e251026847688c26d43ac</sys_ui_formatter>
+            <sys_ui_section caption="STAR EDUCATION" display_value="STAR EDUCATION" name="x_698230_my_custom_star_education" sys_domain="global" view="d3a7bd1aebf62910a9378a3b3639dea4">a1b7315a47f6291026847688c26d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-16 13:27:24</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-16 13:27:24</sys_created_on>
+            <sys_id>69b7715a47f6291026847688c26d4398</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="STAR EDUCATION" display_value="STAR EDUCATION" name="x_698230_my_custom_star_education" sys_domain="global" view="d3a7bd1aebf62910a9378a3b3639dea4">a1b7315a47f6291026847688c26d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-16 13:27:24</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>admission_number</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-16 13:27:24</sys_created_on>
+            <sys_id>6db7715a47f6291026847688c26d4398</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="STAR EDUCATION" display_value="STAR EDUCATION" name="x_698230_my_custom_star_education" sys_domain="global" view="d3a7bd1aebf62910a9378a3b3639dea4">a1b7315a47f6291026847688c26d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-16 13:27:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>student_name</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-16 13:27:24</sys_created_on>
+            <sys_id>61b7715a47f6291026847688c26d4399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="STAR EDUCATION" display_value="STAR EDUCATION" name="x_698230_my_custom_star_education" sys_domain="global" view="d3a7bd1aebf62910a9378a3b3639dea4">a1b7315a47f6291026847688c26d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-16 13:27:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>admin_date</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-16 13:27:24</sys_created_on>
+            <sys_id>65b7715a47f6291026847688c26d4399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="STAR EDUCATION" display_value="STAR EDUCATION" name="x_698230_my_custom_star_education" sys_domain="global" view="d3a7bd1aebf62910a9378a3b3639dea4">a1b7315a47f6291026847688c26d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-16 13:27:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>purpose_of_join</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-16 13:27:24</sys_created_on>
+            <sys_id>69b7715a47f6291026847688c26d4399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="STAR EDUCATION" display_value="STAR EDUCATION" name="x_698230_my_custom_star_education" sys_domain="global" view="d3a7bd1aebf62910a9378a3b3639dea4">a1b7315a47f6291026847688c26d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-16 13:27:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>grade</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-16 13:27:24</sys_created_on>
+            <sys_id>6db7715a47f6291026847688c26d4399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="STAR EDUCATION" display_value="STAR EDUCATION" name="x_698230_my_custom_star_education" sys_domain="global" view="d3a7bd1aebf62910a9378a3b3639dea4">a1b7315a47f6291026847688c26d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-16 13:27:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mother_name</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-16 13:27:24</sys_created_on>
+            <sys_id>61b7715a47f6291026847688c26d439a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="STAR EDUCATION" display_value="STAR EDUCATION" name="x_698230_my_custom_star_education" sys_domain="global" view="d3a7bd1aebf62910a9378a3b3639dea4">a1b7315a47f6291026847688c26d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-16 13:27:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_file_attachment_1</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-16 13:27:24</sys_created_on>
+            <sys_id>65b7715a47f6291026847688c26d439a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="STAR EDUCATION" display_value="STAR EDUCATION" name="x_698230_my_custom_star_education" sys_domain="global" view="d3a7bd1aebf62910a9378a3b3639dea4">a1b7315a47f6291026847688c26d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-16 13:27:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-16 13:27:24</sys_created_on>
+            <sys_id>69b7715a47f6291026847688c26d439a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="STAR EDUCATION" display_value="STAR EDUCATION" name="x_698230_my_custom_star_education" sys_domain="global" view="d3a7bd1aebf62910a9378a3b3639dea4">a1b7315a47f6291026847688c26d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-16 13:27:24</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>admin_status</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-16 13:27:24</sys_created_on>
+            <sys_id>6db7715a47f6291026847688c26d439a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="STAR EDUCATION" display_value="STAR EDUCATION" name="x_698230_my_custom_star_education" sys_domain="global" view="d3a7bd1aebf62910a9378a3b3639dea4">a1b7315a47f6291026847688c26d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-16 13:27:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fee</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-16 13:27:24</sys_created_on>
+            <sys_id>61b7715a47f6291026847688c26d439b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="STAR EDUCATION" display_value="STAR EDUCATION" name="x_698230_my_custom_star_education" sys_domain="global" view="d3a7bd1aebf62910a9378a3b3639dea4">a1b7315a47f6291026847688c26d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-16 13:27:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>aggregate</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-16 13:27:24</sys_created_on>
+            <sys_id>65b7715a47f6291026847688c26d439b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="STAR EDUCATION" display_value="STAR EDUCATION" name="x_698230_my_custom_star_education" sys_domain="global" view="d3a7bd1aebf62910a9378a3b3639dea4">a1b7315a47f6291026847688c26d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-16 13:27:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>trained_on</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-16 13:27:24</sys_created_on>
+            <sys_id>69b7715a47f6291026847688c26d439b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="STAR EDUCATION" display_value="STAR EDUCATION" name="x_698230_my_custom_star_education" sys_domain="global" view="d3a7bd1aebf62910a9378a3b3639dea4">a1b7315a47f6291026847688c26d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-16 13:27:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>father_name</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-16 13:27:24</sys_created_on>
+            <sys_id>6db7715a47f6291026847688c26d439b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="STAR EDUCATION" display_value="STAR EDUCATION" name="x_698230_my_custom_star_education" sys_domain="global" view="d3a7bd1aebf62910a9378a3b3639dea4">a1b7315a47f6291026847688c26d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-16 13:27:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>on_hold_reason</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-16 13:27:24</sys_created_on>
+            <sys_id>61b7715a47f6291026847688c26d439c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="STAR EDUCATION" display_value="STAR EDUCATION" name="x_698230_my_custom_star_education" sys_domain="global" view="d3a7bd1aebf62910a9378a3b3639dea4">a1b7315a47f6291026847688c26d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-16 13:27:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-16 13:27:24</sys_created_on>
+            <sys_id>65b7715a47f6291026847688c26d439c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="STAR EDUCATION" display_value="STAR EDUCATION" name="x_698230_my_custom_star_education" sys_domain="global" view="d3a7bd1aebf62910a9378a3b3639dea4">a1b7315a47f6291026847688c26d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-16 13:27:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>STAR EDUCATION</caption>
+            <header>false</header>
+            <name>x_698230_my_custom_star_education</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-05-16 13:27:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1b7315a47f6291026847688c26d43a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_698230_my_custom_star_education</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+            <sys_update_name>sys_ui_section_a1b7315a47f6291026847688c26d43a8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-05-16 13:27:23</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace My custom App 0" name="Workspace-My-custom-App-0">d3a7bd1aebf62910a9378a3b3639dea4</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

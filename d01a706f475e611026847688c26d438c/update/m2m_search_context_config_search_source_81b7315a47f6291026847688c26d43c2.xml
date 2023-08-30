@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>200</order>
+        <search_context_config display_value="My custom App - Workspace Search">d7a7bd1a0ff6291039751d17ed05d0a6</search_context_config>
+        <source display_value="My custom App - x_698230_my_custom_star_education">f8b7315a47f6291026847688c26d434d</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-16 13:27:22</sys_created_on>
+        <sys_id>81b7315a47f6291026847688c26d43c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_81b7315a47f6291026847688c26d43c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-16 13:27:22</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

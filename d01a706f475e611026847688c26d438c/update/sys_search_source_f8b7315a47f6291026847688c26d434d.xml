@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_698230_my_custom_star_education">active=true</condition>
+        <group/>
+        <name>My custom App - x_698230_my_custom_star_education</name>
+        <roles/>
+        <source_table>x_698230_my_custom_star_education</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-16 13:27:20</sys_created_on>
+        <sys_id>f8b7315a47f6291026847688c26d434d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My custom App - x_698230_my_custom_star_education</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_update_name>sys_search_source_f8b7315a47f6291026847688c26d434d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-16 13:27:20</sys_updated_on>
+    </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=f8b7315a47f6291026847688c26d434d"/>
+</record_update>

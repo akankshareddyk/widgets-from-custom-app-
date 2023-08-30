@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="REC">098e648e4793211026847688c26d4319</sc_cat_item>
+        <sc_category display_value="Office">109cdff8c6112276003b17991a09ad65</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-14 20:52:52</sys_created_on>
+        <sys_id>527353914700351026847688c26d431c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Office.REC</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_update_name>sc_cat_item_category_527353914700351026847688c26d431c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-14 20:52:52</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My custom App">d01a706f475e611026847688c26d438c</application>
+        <file_path/>
+        <instance_id>b477294adb08f090c6e711f8489619e9</instance_id>
+        <instance_name>dev115607</instance_name>
+        <name>sc_cat_item_category_527353914700351026847688c26d431c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="DELETE"><sc_cat_item display_value="REC">098e648e4793211026847688c26d4319</sc_cat_item><sc_category display_value="Office">109cdff8c6112276003b17991a09ad65</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-14 20:52:52</sys_created_on><sys_id>527353914700351026847688c26d431c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Office.REC</sys_name><sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package><sys_policy/><sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope><sys_update_name>sc_cat_item_category_527353914700351026847688c26d431c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-14 20:52:52</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1664457293</payload_hash>
+        <record_name>Office.REC</record_name>
+        <reverted_from/>
+        <source>47b453154700351026847688c26d435c</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-07-14 20:58:23</sys_created_on>
+        <sys_id>8bb453154700351026847688c26d43ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189563297510000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-07-14 20:58:23</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>cfb45315d800351041694ef9abb05ccd</update_guid>
+        <update_guid_history>cfb45315d800351041694ef9abb05ccd:1664457293,5e73d791e00035101ced18211746f831:1181756737</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Office.REC">87b453154700351026847688c26d43df</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-07-14 20:58:23</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>58f27bc2d18a4c25b8b6cc976709fd51</sys_id>
+        <sys_metadata>527353914700351026847688c26d431c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Office.REC</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_scope_delete display_value="">bdb3aa1cfdaf4e008fd663c1f4404000</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_527353914700351026847688c26d431c</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_527353914700351026847688c26d431c">8bb453154700351026847688c26d43ce</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-07-14 20:58:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

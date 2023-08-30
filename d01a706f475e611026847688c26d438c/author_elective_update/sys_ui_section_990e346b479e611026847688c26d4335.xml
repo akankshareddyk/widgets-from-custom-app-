@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="990e346b479e611026847688c26d4335" sys_domain="global" table="x_698230_my_custom_star_education" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-27 10:56:26</sys_created_on>
+            <sys_id>05fed784476e251026847688c26d43d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">7b7c1fc0476e251026847688c26d43ac</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-27 10:56:26</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>admission_number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-27 10:56:26</sys_created_on>
+            <sys_id>0dfed784476e251026847688c26d43d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-27 10:56:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>student_name</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-27 10:56:26</sys_created_on>
+            <sys_id>01fed784476e251026847688c26d43d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-27 10:56:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>admin_date</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-27 10:56:26</sys_created_on>
+            <sys_id>05fed784476e251026847688c26d43d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-27 10:56:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>purpose_of_join</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-27 10:56:26</sys_created_on>
+            <sys_id>09fed784476e251026847688c26d43d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-27 10:56:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>grade</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-27 10:56:26</sys_created_on>
+            <sys_id>0dfed784476e251026847688c26d43d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-27 10:56:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mother_name</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-27 10:56:26</sys_created_on>
+            <sys_id>01fed784476e251026847688c26d43da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-27 10:56:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-27 10:56:26</sys_created_on>
+            <sys_id>05fed784476e251026847688c26d43da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-27 10:56:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>admin_status</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-27 10:56:26</sys_created_on>
+            <sys_id>09fed784476e251026847688c26d43da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-27 10:56:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fee</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-27 10:56:26</sys_created_on>
+            <sys_id>0dfed784476e251026847688c26d43da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-27 10:56:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>aggregate</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-27 10:56:26</sys_created_on>
+            <sys_id>01fed784476e251026847688c26d43db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-27 10:56:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>trained_on</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-27 10:56:26</sys_created_on>
+            <sys_id>05fed784476e251026847688c26d43db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-27 10:56:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>father_name</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-27 10:56:26</sys_created_on>
+            <sys_id>09fed784476e251026847688c26d43db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-27 10:56:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>on_hold_reason</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-27 10:56:26</sys_created_on>
+            <sys_id>0dfed784476e251026847688c26d43db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-27 10:56:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-27 10:56:26</sys_created_on>
+            <sys_id>01fed784476e251026847688c26d43dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-27 10:56:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_698230_my_custom_star_education</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>akanksha</sys_created_by>
+            <sys_created_on>2023-04-25 09:56:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>990e346b479e611026847688c26d4335</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_698230_my_custom_star_education</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+            <sys_update_name>sys_ui_section_990e346b479e611026847688c26d4335</sys_update_name>
+            <sys_updated_by>akanksha</sys_updated_by>
+            <sys_updated_on>2023-04-25 09:56:21</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My custom App">d01a706f475e611026847688c26d438c</application>
+        <file_path/>
+        <instance_id>b477294adb08f090c6e711f8489619e9</instance_id>
+        <instance_name>dev115607</instance_name>
+        <name>sys_ui_section_990e346b479e611026847688c26d4335</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="990e346b479e611026847688c26d4335" sys_domain="global" table="x_698230_my_custom_star_education" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>process_flow.xml</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-27 10:56:26</sys_created_on><sys_id>05fed784476e251026847688c26d43d8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Process Flow">7b7c1fc0476e251026847688c26d43ac</sys_ui_formatter><sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-27 10:56:26</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>admission_number</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-27 10:56:26</sys_created_on><sys_id>0dfed784476e251026847688c26d43d8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-27 10:56:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>student_name</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-27 10:56:26</sys_created_on><sys_id>01fed784476e251026847688c26d43d9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-27 10:56:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>admin_date</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-27 10:56:26</sys_created_on><sys_id>05fed784476e251026847688c26d43d9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-27 10:56:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>purpose_of_join</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-27 10:56:26</sys_created_on><sys_id>09fed784476e251026847688c26d43d9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-27 10:56:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>grade</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-27 10:56:26</sys_created_on><sys_id>0dfed784476e251026847688c26d43d9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-27 10:56:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>mother_name</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-27 10:56:26</sys_created_on><sys_id>01fed784476e251026847688c26d43da</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-27 10:56:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-27 10:56:26</sys_created_on><sys_id>05fed784476e251026847688c26d43da</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-27 10:56:26</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>admin_status</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-27 10:56:26</sys_created_on><sys_id>09fed784476e251026847688c26d43da</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-27 10:56:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>fee</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-27 10:56:26</sys_created_on><sys_id>0dfed784476e251026847688c26d43da</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-27 10:56:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>aggregate</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-27 10:56:26</sys_created_on><sys_id>01fed784476e251026847688c26d43db</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-27 10:56:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>trained_on</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-27 10:56:26</sys_created_on><sys_id>05fed784476e251026847688c26d43db</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-27 10:56:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>father_name</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-27 10:56:26</sys_created_on><sys_id>09fed784476e251026847688c26d43db</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-27 10:56:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>on_hold_reason</element><position>13</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-27 10:56:26</sys_created_on><sys_id>0dfed784476e251026847688c26d43db</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-27 10:56:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assigned_to</element><position>14</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-27 10:56:26</sys_created_on><sys_id>01fed784476e251026847688c26d43dc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">990e346b479e611026847688c26d4335</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-27 10:56:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_698230_my_custom_star_education</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>akanksha</sys_created_by><sys_created_on>2023-04-25 09:56:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>990e346b479e611026847688c26d4335</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_698230_my_custom_star_education</sys_name><sys_overrides/><sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package><sys_policy/><sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope><sys_update_name>sys_ui_section_990e346b479e611026847688c26d4335</sys_update_name><sys_updated_by>akanksha</sys_updated_by><sys_updated_on>2023-04-25 09:56:21</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>417219130</payload_hash>
+        <record_name>Star Education</record_name>
+        <reverted_from/>
+        <source>dc1a706f475e611026847688c26d438d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-27 10:56:26</sys_created_on>
+        <sys_id>89fed784476e251026847688c26d43de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187c25b76a70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-27 10:56:26</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>81fed784916e25100d4de658b714f4de</update_guid>
+        <update_guid_history>81fed784916e25100d4de658b714f4de:417219130,a78e5384406e2510a2edeb903286c18e:-1453445159,517e1384316e251043718bc6c8333303:417219130,9e98df3b159ee11041e3e685259b3d9f:-2137662877,8da11373f19ee11060653c9d2f3727e9:1764130241,e4519b334d9ee1103f27e5e5c3b6d2fc:2106339087,e875496b9e92a1107313e052d5c0dbc3:1355236646,360385a7a952a110a6520bfd730b516f:-1287122775,3a0385a7be52a1100d4be80c946ab967:275814311,6561052b6712a1103aa4b5dcab9f0fab:1355236646,981f34a3d7de611065948f8b684f8a54:999366526,990ef46b8f9e61108d11caf26d571b11:862619406,dd0e346b279e6110e2541b9a76159837:624989099</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-27 10:57:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>caca2daf3e784806950b13b438a36ec4</sys_id>
+        <sys_metadata>990e346b479e611026847688c26d4335</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_698230_my_custom_star_education</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_parent display_value="Star Education">508a7caf475e611026847688c26d43c7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_scope_delete display_value="">bdb3aa1cfdaf4e008fd663c1f4404000</sys_scope_delete>
+        <sys_update_name>sys_ui_section_990e346b479e611026847688c26d4335</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_990e346b479e611026847688c26d4335">89fed784476e251026847688c26d43de</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-27 10:57:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

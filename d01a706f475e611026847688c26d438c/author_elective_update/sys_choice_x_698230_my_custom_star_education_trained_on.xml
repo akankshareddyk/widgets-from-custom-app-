@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="trained_on" table="x_698230_my_custom_star_education" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>trained_on</element>
+            <name>x_698230_my_custom_star_education</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>akanksha</sys_created_by>
+            <sys_created_on>2023-04-25 10:01:42</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>trained_on</sys_name>
+            <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+            <sys_update_name>sys_choice_x_698230_my_custom_star_education_trained_on</sys_update_name>
+            <sys_updated_by>akanksha</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:01:42</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>trained_on</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Art&amp;Craft</label>
+            <language>en</language>
+            <name>x_698230_my_custom_star_education</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>akanksha</sys_created_by>
+            <sys_created_on>2023-04-25 10:01:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dc3f78e347de611026847688c26d432e</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 13:24:10</sys_updated_on>
+            <value>art</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>trained_on</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Subject knowledge</label>
+            <language>en</language>
+            <name>x_698230_my_custom_star_education</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>akanksha</sys_created_by>
+            <sys_created_on>2023-04-25 10:02:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fb3f78e347de611026847688c26d4339</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>akanksha</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:03:34</sys_updated_on>
+            <value>subject</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>trained_on</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Computer Course</label>
+            <language>en</language>
+            <name>x_698230_my_custom_star_education</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>akanksha</sys_created_by>
+            <sys_created_on>2023-04-25 10:02:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>245f7c2747de611026847688c26d430e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>akanksha</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:03:39</sys_updated_on>
+            <value>computer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>trained_on</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Swimming</label>
+            <language>en</language>
+            <name>x_698230_my_custom_star_education</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>akanksha</sys_created_by>
+            <sys_created_on>2023-04-25 10:02:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>535f306747de611026847688c26d43c6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>akanksha</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:03:42</sys_updated_on>
+            <value>swimming</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>trained_on</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Karate</label>
+            <language>en</language>
+            <name>x_698230_my_custom_star_education</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>akanksha</sys_created_by>
+            <sys_created_on>2023-04-25 10:02:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>836f342747de611026847688c26d4358</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>akanksha</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:03:47</sys_updated_on>
+            <value>karate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>trained_on</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dance</label>
+            <language>en</language>
+            <name>x_698230_my_custom_star_education</name>
+            <sequence>600</sequence>
+            <synonyms/>
+            <sys_created_by>akanksha</sys_created_by>
+            <sys_created_on>2023-04-25 10:02:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>557fbc6747de611026847688c26d4313</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>akanksha</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:03:49</sys_updated_on>
+            <value>dance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>trained_on</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Games &amp; sports</label>
+            <language>en</language>
+            <name>x_698230_my_custom_star_education</name>
+            <sequence>700</sequence>
+            <synonyms/>
+            <sys_created_by>akanksha</sys_created_by>
+            <sys_created_on>2023-04-25 10:02:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a7f74a747de611026847688c26d4369</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>akanksha</sys_updated_by>
+            <sys_updated_on>2023-04-25 10:03:52</sys_updated_on>
+            <value>games</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description>Adding ui to the assigned to on star education.</description>
+        <media_type/>
+        <name>star_ui_caller_id</name>
+        <scoped_name>x_698230_my_custom_star_ui_caller_id</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-27 11:02:48</sys_created_on>
+        <sys_id>4a299f00476e251026847688c26d43fe</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>star_ui_caller_id</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_update_name>sys_ui_macro_4a299f00476e251026847688c26d43fe</sys_update_name>
+        <sys_updated_by>akanksha</sys_updated_by>
+        <sys_updated_on>2023-04-27 12:29:45</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<img src ='book-icon.png' style='width=25%,height:25%' onclick="starList()" title="{gs.getMessage('Show created for assignee')}"></img>
+	<script language="javascript">
+		function starList(){
+	 
+		
+		}
+		
+		
+  
+	</script>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

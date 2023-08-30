@@ -58,7 +58,7 @@
         <recurring_frequency/>
         <redirect_url>generated_record</redirect_url>
         <request_method/>
-        <roles/>
+        <roles>snc_internal</roles>
         <save_options/>
         <save_script><![CDATA[/**
 * This script is executed at every step save in Catalog Builder. 
@@ -86,14 +86,14 @@
         <sys_created_by>akanksha</sys_created_by>
         <sys_created_on>2023-04-25 10:34:10</sys_created_on>
         <sys_id>53a681af4792a11026847688c26d4396</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Star Foundation </sys_name>
         <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
         <sys_policy/>
         <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
         <sys_update_name>sc_cat_item_producer_53a681af4792a11026847688c26d4396</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-04-27 15:33:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-09 09:20:57</sys_updated_on>
         <table_name>x_698230_my_custom_star_education</table_name>
         <taxonomy_topic/>
         <template/>

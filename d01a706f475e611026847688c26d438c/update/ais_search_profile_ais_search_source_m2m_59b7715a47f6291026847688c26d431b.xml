@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <profile display_value="My custom App search profile">97a7bd1a68f6291073eb6b8b2210d3a7</profile>
+        <search_source display_value="Star Education">5db7715a47f6291026847688c26d4319</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-16 13:27:22</sys_created_on>
+        <sys_id>59b7715a47f6291026847688c26d431b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My custom App search profile.Star Education</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_59b7715a47f6291026847688c26d431b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-16 13:27:22</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

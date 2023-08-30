@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="rec">c14d2c98476f291026847688c26d43fd</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-16 10:19:42</sys_created_on>
+        <sys_id>9a06b01447af291026847688c26d431f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Service Catalog.rec</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_9a06b01447af291026847688c26d431f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-06-16 10:20:36</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My custom App">d01a706f475e611026847688c26d438c</application>
+        <file_path/>
+        <instance_id>b477294adb08f090c6e711f8489619e9</instance_id>
+        <instance_name>dev115607</instance_name>
+        <name>sc_cat_item_catalog_9a06b01447af291026847688c26d431f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="DELETE"><sc_cat_item display_value="rec">c14d2c98476f291026847688c26d43fd</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-16 10:19:42</sys_created_on><sys_id>9a06b01447af291026847688c26d431f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Service Catalog.rec</sys_name><sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package><sys_policy/><sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope><sys_update_name>sc_cat_item_catalog_9a06b01447af291026847688c26d431f</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-06-16 10:20:36</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-66941101</payload_hash>
+        <record_name>Service Catalog.rec</record_name>
+        <reverted_from/>
+        <source>d23463a74744751026847688c26d437e</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-07-21 21:52:24</sys_created_on>
+        <sys_id>d234a3a74744751026847688c26d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1897a708e7e0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-07-21 21:52:24</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>1a34a3a7fb447510ee27d565d8209783</update_guid>
+        <update_guid_history>1a34a3a7fb447510ee27d565d8209783:-66941101,2736b414d8af29106d50120842afe280:-620192825</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.rec">1234a3a74744751026847688c26d4394</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-07-21 21:52:24</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>37323ff166654c7195334dccc4b7e1e9</sys_id>
+        <sys_metadata>9a06b01447af291026847688c26d431f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.rec</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_parent display_value="rec">c14d2c98476f291026847688c26d43fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_scope_delete display_value="">bdb3aa1cfdaf4e008fd663c1f4404000</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_9a06b01447af291026847688c26d431f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_9a06b01447af291026847688c26d431f">d234a3a74744751026847688c26d4384</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-07-21 21:52:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

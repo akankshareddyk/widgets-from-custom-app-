@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_698230_my_custom_my_custom_app_search_profile_default_spell_check_dictionary">45b7315a47f6291026847688c26d43d2</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="My custom App search profile">97a7bd1a68f6291073eb6b8b2210d3a7</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-16 13:27:22</sys_created_on>
+        <sys_id>01b7315a47f6291026847688c26d43d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_698230_my_custom_my_custom_app_search_profile_default_spell_check_dictionary.My custom App search profile</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_01b7315a47f6291026847688c26d43d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-16 13:27:22</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

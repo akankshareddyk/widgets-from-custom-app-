@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="7da9fd4f4734f91026847688c26d43c8" sys_domain="global" table="x_698230_my_custom_custom_survey" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_users</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-26 09:31:48</sys_created_on>
+            <sys_id>3cf39e8b47b4f91026847688c26d4377</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_custom_survey" sys_domain="global" view="Default view">7da9fd4f4734f91026847688c26d43c8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-26 09:31:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ratings_of_theater</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-26 09:31:48</sys_created_on>
+            <sys_id>34f39e8b47b4f91026847688c26d4378</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_custom_survey" sys_domain="global" view="Default view">7da9fd4f4734f91026847688c26d43c8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-26 09:31:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rating_of_food</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-26 09:31:48</sys_created_on>
+            <sys_id>38f39e8b47b4f91026847688c26d4378</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_custom_survey" sys_domain="global" view="Default view">7da9fd4f4734f91026847688c26d43c8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-26 09:31:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>key_components_you_liked</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-26 09:31:48</sys_created_on>
+            <sys_id>3cf39e8b47b4f91026847688c26d4378</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_custom_survey" sys_domain="global" view="Default view">7da9fd4f4734f91026847688c26d43c8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-26 09:31:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ratings_of_movie</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-26 09:31:48</sys_created_on>
+            <sys_id>30f39e8b47b4f91026847688c26d4379</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_custom_survey" sys_domain="global" view="Default view">7da9fd4f4734f91026847688c26d43c8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-26 09:31:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_comments</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-26 09:31:48</sys_created_on>
+            <sys_id>34f39e8b47b4f91026847688c26d4379</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_698230_my_custom_custom_survey" sys_domain="global" view="Default view">7da9fd4f4734f91026847688c26d43c8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-26 09:31:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_698230_my_custom_custom_survey</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-26 07:36:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7da9fd4f4734f91026847688c26d43c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_698230_my_custom_custom_survey</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+            <sys_update_name>sys_ui_section_7da9fd4f4734f91026847688c26d43c8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-26 07:36:54</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

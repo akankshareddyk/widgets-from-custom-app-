@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function(spModal) {
+  /* widget controller */
+  var c = this;
+	var shared ={};
+	c.onBrowseLang= function(size){
+	console.log("client");
+
+		//this func is called by a button in html
+		shared.currentLge=c.data.currentLge;
+		console.log(shared.currentLge.usercheck)
+	/*edit after closeure	if(shared.currentLge.usercheck=="survey already submitted")
+			{
+				alert("survey already submitted");
+				return;
+			}
+		else{*/
+			
+		
+		//we store the currentlage data as obj in shared so tht it availble in embedded widget
+		spModal.open({
+			//spmodel.open will open a model, and we will pass it followig parametrs
+			size:size,
+			title:'Please help us improve by taking our short satisfaction survey!!',
+			widget:'36ad357a4774b91026847688c26d4342',
+		//	widgetInput:{table:'x_698230_my_custom_custom_survey_list'},
+			buttons:[
+				{label:'${Submit}',primary:true}
+			],
+			shared:shared//we make shared array available to modal
+			
+		}).then(function(){
+			alert('updated the record');
+			//c.data.selectedLang=shared.selectedLang;//the selected lan is shared with its widget vis share object
+			
+			c.server.update();//send the updated data to obj to server script
+		});
+	//}
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Survey Main widget</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+var userLge= new GlideRecord('x_698230_my_custom_custom_survey')
+userLge.addQuery('u_users',gs.getUserID());
+	var userid=gs.getUserID();
+	console.log(userid)
+	userLge.query();
+	data.currentLge=[];
+console.log("query :"+userLge.getEncodedQuery());
+
+	//data is an object already data availble to u tht can be used in css/html
+	if(userLge.next()){
+		data.currentLge={
+		usercheck : "survey already submitted",
+			userid:userid
+	  
+	}
+	
+	}else{
+		data.currentLge={
+			user:userid
+		}	
+	}
+//console.log("gfh"+JSON.stringify(data.currentLge));
+	
+
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-26 07:11:21</sys_created_on>
+        <sys_id>1ea3b90b4734f91026847688c26d43ba</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>Survey Main widget</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_update_name>sp_widget_1ea3b90b4734f91026847688c26d43ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-26 11:59:28</sys_updated_on>
+        <template><![CDATA[<div ng-if="data.currentLge">
+  <button ng-click="c.onBrowseLang('lg')" class="adopt btn btn-primary">
+     ${Please fill the survey}   
+    <!--anything in  $ sign considered as msg-->
+                                                 
+       </button>
+<!-- your widget template -->
+  
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

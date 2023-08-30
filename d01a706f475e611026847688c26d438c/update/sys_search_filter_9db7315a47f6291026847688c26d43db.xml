@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="admission">09b7315a47f6291026847688c26d43cd</ais_search_source>
+        <label>admission</label>
+        <name>admission</name>
+        <order>100</order>
+        <search_context_config display_value="My custom App AI Search Configuration">5fa7bd1a1bf6291001a203a2a3c9eaa2</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-16 13:27:22</sys_created_on>
+        <sys_id>9db7315a47f6291026847688c26d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>admission</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_update_name>sys_search_filter_9db7315a47f6291026847688c26d43db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-16 13:27:22</sys_updated_on>
+    </sys_search_filter>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>4</order>
+        <published_ref/>
+        <question display_value="Admin Status">37a605ef4792a11026847688c26d439d</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>akanksha</sys_created_by>
+        <sys_created_on>2023-04-25 10:34:12</sys_created_on>
+        <sys_id>f3a605ef4792a11026847688c26d43af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resolved</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_update_name>question_choice_f3a605ef4792a11026847688c26d43af</sys_update_name>
+        <sys_updated_by>akanksha</sys_updated_by>
+        <sys_updated_on>2023-04-25 10:34:12</sys_updated_on>
+        <text>Resolved</text>
+        <value>4</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=f3a605ef4792a11026847688c26d43af"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My custom App">d01a706f475e611026847688c26d438c</application>
+        <file_path/>
+        <instance_id>b477294adb08f090c6e711f8489619e9</instance_id>
+        <instance_name>dev115607</instance_name>
+        <name>question_choice_f3a605ef4792a11026847688c26d43af</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>4</order><published_ref/><question display_value="Admin Status">37a605ef4792a11026847688c26d439d</question><sys_class_name>question_choice</sys_class_name><sys_created_by>akanksha</sys_created_by><sys_created_on>2023-04-25 10:34:12</sys_created_on><sys_id>f3a605ef4792a11026847688c26d43af</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Resolved</sys_name><sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package><sys_policy/><sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope><sys_update_name>question_choice_f3a605ef4792a11026847688c26d43af</sys_update_name><sys_updated_by>akanksha</sys_updated_by><sys_updated_on>2023-04-25 10:34:12</sys_updated_on><text>Resolved</text><value>4</value></question_choice><fx_price action="delete_multiple" query="id=f3a605ef4792a11026847688c26d43af"/></record_update>]]></payload>
+        <payload_hash>1374747154</payload_hash>
+        <record_name>Resolved</record_name>
+        <reverted_from/>
+        <source>dc1a706f475e611026847688c26d438d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>akanksha</sys_created_by>
+        <sys_created_on>2023-04-25 10:34:12</sys_created_on>
+        <sys_id>73a605ef4792a11026847688c26d43b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187b7fa62670000001</sys_recorded_at>
+        <sys_updated_by>akanksha</sys_updated_by>
+        <sys_updated_on>2023-04-25 10:34:12</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>bba605ef1992a1104a7a7f93c8e862b0</update_guid>
+        <update_guid_history>bba605ef1992a1104a7a7f93c8e862b0:1374747154</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Resolved">8cc7c16347d2a11026847688c26d4389</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>akanksha</sys_created_by>
+        <sys_created_on>2023-04-25 10:38:52</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>07a18a2e66e84ad584cced79940820b1</sys_id>
+        <sys_metadata>f3a605ef4792a11026847688c26d43af</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resolved</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_scope_delete display_value="">bdb3aa1cfdaf4e008fd663c1f4404000</sys_scope_delete>
+        <sys_update_name>question_choice_f3a605ef4792a11026847688c26d43af</sys_update_name>
+        <sys_update_version display_value="question_choice_f3a605ef4792a11026847688c26d43af">73a605ef4792a11026847688c26d43b1</sys_update_version>
+        <sys_updated_by>akanksha</sys_updated_by>
+        <sys_updated_on>2023-04-25 10:38:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

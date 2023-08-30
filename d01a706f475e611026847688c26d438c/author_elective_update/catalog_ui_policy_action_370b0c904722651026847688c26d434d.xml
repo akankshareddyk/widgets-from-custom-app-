@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Star Foundation ">53a681af4792a11026847688c26d4396</catalog_item>
+        <catalog_variable>IO:38f1ed2f4716a11026847688c26d430d</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>500</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-27 14:09:23</sys_created_on>
+        <sys_id>370b0c904722651026847688c26d434d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>u_file_attachment_1</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_370b0c904722651026847688c26d434d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-27 14:10:56</sys_updated_on>
+        <table/>
+        <ui_policy display_value="purpose of join ">499ccda747d2a11026847688c26d4381</ui_policy>
+        <variable>u_file_attachment_1</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My custom App">d01a706f475e611026847688c26d438c</application>
+        <file_path/>
+        <instance_id>b477294adb08f090c6e711f8489619e9</instance_id>
+        <instance_name>dev115607</instance_name>
+        <name>catalog_ui_policy_action_370b0c904722651026847688c26d434d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Star Foundation ">53a681af4792a11026847688c26d4396</catalog_item><catalog_variable>IO:38f1ed2f4716a11026847688c26d430d</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>500</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-27 14:09:23</sys_created_on><sys_id>370b0c904722651026847688c26d434d</sys_id><sys_mod_count>2</sys_mod_count><sys_name>u_file_attachment_1</sys_name><sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package><sys_policy/><sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope><sys_update_name>catalog_ui_policy_action_370b0c904722651026847688c26d434d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-27 14:10:56</sys_updated_on><table/><ui_policy display_value="purpose of join ">499ccda747d2a11026847688c26d4381</ui_policy><variable>u_file_attachment_1</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-149055664</payload_hash>
+        <record_name>u_file_attachment_1</record_name>
+        <reverted_from/>
+        <source>dc1a706f475e611026847688c26d438d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-27 14:10:56</sys_created_on>
+        <sys_id>067b04d04722651026847688c26d4326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187c30d892d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-27 14:10:56</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>4e7b04d09d226510852f12b2ebb2a925</update_guid>
+        <update_guid_history>4e7b04d09d226510852f12b2ebb2a925:-149055664,2a4bcc905b226510932738242e1ff3b3:-1297356213,531b4c9081226510e754cba4c9da926d:-522260662</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="u_file_attachment_1">0a5ed4944762651026847688c26d43e9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-04-27 15:33:24</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>960fec64370a4b649581860dbb842571</sys_id>
+        <sys_metadata>370b0c904722651026847688c26d434d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_file_attachment_1</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_scope_delete display_value="">bdb3aa1cfdaf4e008fd663c1f4404000</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_370b0c904722651026847688c26d434d</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_370b0c904722651026847688c26d434d">067b04d04722651026847688c26d4326</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-04-27 15:33:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_698230_my_custom.star_education_user" name="x_698230_my_custom.star_education_user">e1da70ef475e611026847688c26d4367</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>akanksha</sys_created_by>
+        <sys_created_on>2023-04-25 09:42:26</sys_created_on>
+        <sys_id>e1da70ef475e611026847688c26d4369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e1da70ef475e611026847688c26d4367</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_update_name>sys_embedded_help_role_e1da70ef475e611026847688c26d4369</sys_update_name>
+        <sys_updated_by>akanksha</sys_updated_by>
+        <sys_updated_on>2023-04-25 09:42:26</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b257390f4734f91026847688c26d4380" label="Custom Survey" max_length="40" name="x_698230_my_custom_custom_survey" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Additional Comments" max_length="100" name="additional_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Key Components you liked" max_length="40" name="key_components_you_liked" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="Background Score" sequence="0" value="bg"/>
+                <element inactive_on_update="false" label="Cast" sequence="1" value="cast"/>
+                <element inactive_on_update="false" label="Music" sequence="2" value="music"/>
+                <element inactive_on_update="false" label="Story Line" sequence="3" value="story"/>
+                <element inactive_on_update="false" label="Visual Effects" sequence="4" value="visual"/>
+            </choice>
+        </element>
+        <element choice="1" label="Ratings of Movie" max_length="40" name="ratings_of_movie" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="1" value="1"/>
+                <element inactive_on_update="false" label="2" value="2"/>
+                <element inactive_on_update="false" label="3" value="3"/>
+                <element inactive_on_update="false" label="4" value="4"/>
+                <element inactive_on_update="false" label="5" value="5"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Ratings of theater" max_length="40" name="ratings_of_theater" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes,Its Good" sequence="0" value="its_good"/>
+                <element inactive_on_update="false" label="No,Its Worst" sequence="1" value="its_worst"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" display="true" label="Rating of Food" max_length="40" name="rating_of_food" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No,Its Worst" sequence="1" value="its_worst"/>
+                <element inactive_on_update="false" label="Yes,Its Good" sequence="1" value="its_good"/>
+                <element inactive="true" inactive_on_update="true" label="No" sequence="2" value="No"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="User" max_length="32" name="u_users" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_users"/>
+        </index>
+    </element>
+</database>

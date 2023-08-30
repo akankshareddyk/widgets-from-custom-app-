@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Star Foundation ">53a681af4792a11026847688c26d4396</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>akanksha</sys_created_by>
+        <sys_created_on>2023-04-25 10:51:03</sys_created_on>
+        <sys_id>ae8a092747d2a11026847688c26d43cb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Services.Star Foundation </sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_update_name>sc_cat_item_category_ae8a092747d2a11026847688c26d43cb</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-04-25 10:59:09</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="My custom App">d01a706f475e611026847688c26d438c</application>
+        <file_path/>
+        <instance_id>b477294adb08f090c6e711f8489619e9</instance_id>
+        <instance_name>dev115607</instance_name>
+        <name>sc_cat_item_category_ae8a092747d2a11026847688c26d43cb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="DELETE"><sc_cat_item display_value="Star Foundation ">53a681af4792a11026847688c26d4396</sc_cat_item><sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>akanksha</sys_created_by><sys_created_on>2023-04-25 10:51:03</sys_created_on><sys_id>ae8a092747d2a11026847688c26d43cb</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Services.Star Foundation </sys_name><sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package><sys_policy/><sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope><sys_update_name>sc_cat_item_category_ae8a092747d2a11026847688c26d43cb</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-04-25 10:59:09</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-1511204606</payload_hash>
+        <record_name>Services.Star Foundation </record_name>
+        <reverted_from/>
+        <source>755ed4944762651026847688c26d43ae</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-04-27 15:33:25</sys_created_on>
+        <sys_id>1e5e18944762651026847688c26d4380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187c3590a1a0000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-04-27 15:33:25</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>525e1894fe626510c93d32e77ee91280</update_guid>
+        <update_guid_history>525e1894fe626510c93d32e77ee91280:-1511204606,d56c49a7c6d2a110024d11f7bf5de65a:1471858934</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.Star Foundation ">9e5e18944762651026847688c26d4384</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-04-27 15:33:25</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>400b52102c4c494897fef3e33c7e1840</sys_id>
+        <sys_metadata>ae8a092747d2a11026847688c26d43cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Star Foundation </sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_scope_delete display_value="">bdb3aa1cfdaf4e008fd663c1f4404000</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_ae8a092747d2a11026847688c26d43cb</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_ae8a092747d2a11026847688c26d43cb">1e5e18944762651026847688c26d4380</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-04-27 15:33:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
