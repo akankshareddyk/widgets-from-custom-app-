@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>icon_ritms</name>
+        <scoped_name>x_698230_my_custom_icon_ritms</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-04 09:28:00</sys_created_on>
+        <sys_id>61f8c3e347a13110425086c8436d4350</sys_id>
+        <sys_mod_count>50</sys_mod_count>
+        <sys_name>icon_ritms</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_update_name>sys_ui_macro_61f8c3e347a13110425086c8436d4350</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 13:09:38</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+
+<j:set var="jvar_n" value="show_ritms_${jvar_guid}:${ref}"/>
+
+<!--- 
+<g:reference_decoration id="${jvar_n}" field="${ref}"
+
+
+  onclick="showRelatedList('${ref}'); "
+
+
+  title="${gs.getMessage('Show related ritms')}" />
+to customize the icon use below code
+-->
+
+
+<style>
+		.hide_icon {
+			visibility: hidden;
+		}
+		.show_icon {
+			visibility: visible;
+		}
+	</style>
+	<g2:evaluate var="jvar_show_hide_icon" object="true" jelly="true">
+		var r=new RITMUiMacro().getVips();
+		r;
+   </g2:evaluate>
+     <a id="${jvar_n}" 
+
+
+   onclick="showRelatedList('${ref}');"
+
+
+   field="${ref}" 
+
+
+   
+ class="$[jvar_show_hide_icon]"
+
+   
+
+
+   onmouseout="lockPopup(event)"
+
+
+     tabindex="0"
+
+
+>
+
+   <img src='accepted-question.svg' width="30px" height="30px" title="show related items" />
+
+
+   </a>
+  <script>
+function showRelatedList(reference) {
+
+
+try {
+
+
+var displayValue = g_form.getDisplayBox(reference).value;
+
+
+
+var s = reference.split('.');
+
+var referenceField = s[s.length - 1];
+
+
+var query = referenceField + '=' + g_form.getValue(reference);
+
+
+
+
+
+
+var title = 'Showing records related to: ' + displayValue;
+
+
+var gdw = new GlideModal('show_list');
+
+
+gdw.setTitle(title);
+
+
+gdw.setSize(750);
+
+
+gdw.setPreference('table', 'sc_req_item_list');
+
+
+gdw.setPreference('sysparm_query', query);
+
+
+gdw.setPreference('title', 'A New Title');
+
+
+gdw.render();
+
+}
+ catch (e) {
+
+
+jslog('error showing related list');
+
+
+jslog(e);
+
+
+}
+
+
+}
+
+
+
+
+</script>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>
