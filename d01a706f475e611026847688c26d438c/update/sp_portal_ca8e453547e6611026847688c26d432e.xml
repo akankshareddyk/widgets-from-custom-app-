@@ -21,6 +21,7 @@ $sp-logo-margin-x:7px;
 $btn-default-bg:#fff;
 $text-muted:#666666;
 </css_variables>
+        <dark_theme/>
         <default>false</default>
         <enable_ais>false</enable_ais>
         <enable_favorites>false</enable_favorites>
@@ -33,6 +34,7 @@ $text-muted:#666666;
         <logo>5ee12d35472a611026847688c26d43c8</logo>
         <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
         <quick_start_config/>
+        <rtl_enabled>false</rtl_enabled>
         <sc_catalog/>
         <sc_catalog_page display_value="sc_home">fe87a11147132100ba13a5554ee490b9</sc_catalog_page>
         <sc_category_page display_value="sc_category">07261a2147132100ba13a5554ee49092</sc_category_page>

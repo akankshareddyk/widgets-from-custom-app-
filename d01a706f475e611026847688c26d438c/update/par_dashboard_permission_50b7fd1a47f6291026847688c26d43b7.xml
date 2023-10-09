@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_permission">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
     <par_dashboard_permission action="INSERT_OR_UPDATE">
         <can_read>true</can_read>
         <can_share>false</can_share>
@@ -9,9 +9,12 @@
         <sys_class_name>par_dashboard_permission</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-16 13:27:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>50b7fd1a47f6291026847688c26d43b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>d3a7bd1aa8f62910b47ff2e48e8fe0a1</sys_name>
+        <sys_overrides/>
         <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
         <sys_policy/>
         <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>

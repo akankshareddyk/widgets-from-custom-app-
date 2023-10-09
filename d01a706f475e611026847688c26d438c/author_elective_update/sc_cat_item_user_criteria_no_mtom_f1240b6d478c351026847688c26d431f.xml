@@ -41,7 +41,7 @@
         <update_guid_history>aa34a3a719447510a2d26523b92677ad:1050256669,ae34a3a736447510d250902a2e182caa:1797213908</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="rec.SNC External">0e95a32b4744751026847688c26d4324</sys_audit_delete>
+        <sys_audit_delete display_value="">0e95a32b4744751026847688c26d4324</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2023-07-21 21:58:23</sys_created_on>

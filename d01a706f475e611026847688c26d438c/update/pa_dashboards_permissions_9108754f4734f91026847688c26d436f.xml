@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
     <pa_dashboards_permissions action="INSERT_OR_UPDATE">
-        <dashboard display_value="Incident SLA Management">e03a7912bf201100b96dac808c0739f2</dashboard>
+        <dashboard display_value="">e03a7912bf201100b96dac808c0739f2</dashboard>
         <delete>false</delete>
         <group/>
         <identity>pa_viewer</identity>

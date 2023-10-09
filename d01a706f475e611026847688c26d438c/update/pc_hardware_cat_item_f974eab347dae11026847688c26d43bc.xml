@@ -29,7 +29,7 @@
         <mobile_hide_price>false</mobile_hide_price>
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
-        <model display_value="Lenovo Think Pad P52">18432eff479ae11026847688c26d43ef</model>
+        <model display_value="">18432eff479ae11026847688c26d43ef</model>
         <name>Think Pad P52</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
@@ -83,6 +83,7 @@
         <use_sc_layout>true</use_sc_layout>
         <vendor display_value="Lenovo">aa0a6df8c611227601cd2ed45989e0ac</vendor>
         <vendor_catalog_item/>
+        <version/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>

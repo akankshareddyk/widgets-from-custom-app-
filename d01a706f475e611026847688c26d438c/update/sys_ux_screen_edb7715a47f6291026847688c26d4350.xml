@@ -3,6 +3,7 @@
         <active>true</active>
         <app_config display_value="My custom App Config">1fa7bd1a71f62910cd3707b825ed2ba7</app_config>
         <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[ ]</event_mappings>
         <macroponent display_value="admission Record Page">d1b7715a47f6291026847688c26d434b</macroponent>
         <macroponent_config>{
@@ -49,7 +50,7 @@
 }</macroponent_config>
         <name>admission Record Page</name>
         <order>100</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <required_translations>[ ]</required_translations>
         <rollback_screen/>
         <screen_condition>table=x_698230_my_custom_admission</screen_condition>

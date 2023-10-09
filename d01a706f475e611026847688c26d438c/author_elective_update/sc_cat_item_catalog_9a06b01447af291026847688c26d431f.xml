@@ -41,7 +41,7 @@
         <update_guid_history>1a34a3a7fb447510ee27d565d8209783:-66941101,2736b414d8af29106d50120842afe280:-620192825</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalog.rec">1234a3a74744751026847688c26d4394</sys_audit_delete>
+        <sys_audit_delete display_value="">1234a3a74744751026847688c26d4394</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2023-07-21 21:52:24</sys_created_on>

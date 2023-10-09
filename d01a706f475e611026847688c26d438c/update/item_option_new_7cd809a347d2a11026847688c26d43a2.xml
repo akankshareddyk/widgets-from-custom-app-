@@ -17,6 +17,8 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field/>
@@ -77,7 +79,7 @@
         <sys_id>7cd809a347d2a11026847688c26d43a2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Student Details</sys_name>
-        <sys_package/>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
         <sys_policy/>
         <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
         <sys_update_name>item_option_new_7cd809a347d2a11026847688c26d43a2</sys_update_name>

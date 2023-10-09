@@ -29,19 +29,19 @@
         <source>3c0fe7114733211026847688c26d4384</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-02 12:37:30</sys_created_on>
         <sys_id>d633df514700351026847688c26d4317</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>189169bb3100000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-28 12:27:51</sys_updated_on>
         <type>Catalog Item Not Available for</type>
         <update_guid>9633df51820035107821370853d69b17</update_guid>
         <update_guid_history>9633df51820035107821370853d69b17:706738686</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="REC.SNC External">1a33df514700351026847688c26d431a</sys_audit_delete>
+        <sys_audit_delete display_value="">1a33df514700351026847688c26d431a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2023-07-14 20:51:47</sys_created_on>

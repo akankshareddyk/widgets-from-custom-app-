@@ -4,6 +4,7 @@
         <api_name>x_698230_my_custom.Audience for app my-custom-app</api_name>
         <description/>
         <name>Audience for app my-custom-app</name>
+        <role_names/>
         <roles>0d8db0a7479e611026847688c26d430b,e1da70ef475e611026847688c26d4367</roles>
         <sys_class_name>sys_ux_applicability</sys_class_name>
         <sys_created_by>admin</sys_created_by>

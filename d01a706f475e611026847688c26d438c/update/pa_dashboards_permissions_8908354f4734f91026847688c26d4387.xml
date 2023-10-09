@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
     <pa_dashboards_permissions action="INSERT_OR_UPDATE">
-        <dashboard display_value="Open Requested Items Reports">568820a3d7010200b96d45a3ce6103f4</dashboard>
+        <dashboard display_value="">568820a3d7010200b96d45a3ce6103f4</dashboard>
         <delete>false</delete>
         <group/>
         <identity>pa_viewer</identity>

@@ -78,10 +78,11 @@
         <type>item</type>
         <use_sc_layout>false</use_sc_layout>
         <vendor/>
+        <version/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
-        <workflow display_value="TEST1">a825a3e74744751026847688c26d43bc</workflow>
+        <workflow display_value="">a825a3e74744751026847688c26d43bc</workflow>
     </sc_cat_item>
     <sys_translated_text action="delete_multiple" query="documentkey=c14d2c98476f291026847688c26d43fd"/>
     <fx_price action="delete_multiple" query="id=c14d2c98476f291026847688c26d43fd"/>
