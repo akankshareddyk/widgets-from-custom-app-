@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function(spModal) {
+  /* widget controller */
+  var c = this;
+	var shared ={};
+	c.submitMain= function(size){
+
+		//this func is called by a button in html
+		/*	shared.currentuser=c.data.currentuser;
+		console.log(shared.currentuser.usercheck)
+	if(shared.currentuser.usercheck=="survey already submitted")
+			{
+				alert("survey already submitted");
+				return;
+			}
+		else{*/
+	
+			
+		
+		//we store the currentlage data as obj in shared so tht it availble in embedded widget
+		spModal.open({
+			//spmodel.open will open a model, and we will pass it followig parametrs
+			size:size,
+			title:'Register for courses!!',
+			widget:'3d8d9bb947713110425086c8436d431e',
+		//	widgetInput:{table:'x_698230_my_custom_custom_survey_list'},
+			buttons:[
+				{label:'${Close}',primary:true}
+			],
+			shared:shared//we make shared array available to modal
+			
+		}).then(function(){
+			alert(JSON.stringify(shared)+"shared");
+						c.data.sys_id = shared.sys_id; //get shared data from client child to parent
+      
+			//console.log(JSON.stringify(shared)+"shared");
+
+			//c.data.selectedLang=shared.selectedLang;//the selected lan is shared with its widget vis share object
+			c.server.update();//send the updated data to obj to server script
+		
+		});
+	//}
+	
+		
+		}
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Main widget for register</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+ /* e.g., data.table = $sp.getValue('table'); */
+/*var y=new GlideRecord('x_698230_my_custom_register_for_classes');
+		y.addQuery('user',gs.getUserName());
+		y.addQuery('language',data.lang);
+		y.query();
+		gs.info(y.getEncodedQuery()+"query");
+		if(y.next()){
+			console.log("tttt")
+		}*/
+	if(input){
+		data.report="true";
+
+		data.sys_id=input.sys_id;
+		console.log("hareddd:"+data.sys_id)
+		var y=new GlideRecord('x_698230_my_custom_register_for_classes');
+		y.addQuery('user',gs.getUserID());
+		y.addQuery('language',data.sys_id);
+		y.query();
+		console.log(y.getEncodedQuery());
+		if(y.next()){
+    	data.a= data.report;
+			console.log("data.a"+data.a)
+	
+		}
+		else{
+			data.a="false";
+			y.setValue('language',data.sys_id);
+			y.setValue('user',gs.getUserID());
+			y.insert();
+		}
+	
+	}
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-11 12:56:53</sys_created_on>
+        <sys_id>15fb3f3147353110425086c8436d43fc</sys_id>
+        <sys_mod_count>54</sys_mod_count>
+        <sys_name>Main widget for register</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_update_name>sp_widget_15fb3f3147353110425086c8436d43fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-12 16:31:00</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+    <button class="btn btn-primary" ng-click="c.submitMain('lg')">
+        Need support?
+        </button>
+</div>]]></template>
+    </sp_widget>
+</record_update>

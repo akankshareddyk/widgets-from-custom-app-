@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope) {
+  /* widget controller */
+	 
+
+  var c = this;
+	var shared =c.widget.options.shared;
+  alert((JSON.stringify(c.data.transportdet)))
+	c.submit = function(lang,id,sysidoflangrec) 
+	{
+		//alert(sysidoflangrec)
+		c.server.update().then(function() {
+			c.data.lang= lang;
+			c.data.id=id;
+			c.data.sys_id=sysidoflangrec;
+			shared.lang=lang
+			shared.id=id;
+			shared.sys_id=sysidoflangrec;
+			//shared object movement from html data to parent widget then to server side
+			//	alert("id "+JSON.stringify(shared))
+     
+		})
+		
+	}
+
+	
+};
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>show Languages</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	var details=[];
+	 data.lang=[];
+
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+var x= new GlideRecord('x_698230_my_custom_language_broucher');
+x.addQuery('idISNOTEMPTY');
+	x.query();
+	while(x.next()){
+		var obj={};
+		    obj.Language=x.getValue('languages');
+		    obj.sys_id=x.getUniqueValue();
+				obj.description=x.getValue('description');
+		    obj.id=x.getValue('id')
+		    details.push(obj);
+		data.transportdet=details;
+			console.log(data.transportdet);
+
+	}
+	/*if(input){
+	data.sys_id=input.sys_id;
+		console.log(data.sys_id+"sys_id")
+		var y=new GlideRecord('x_698230_my_custom_register_for_classes');
+		y.addQuery('user',gs.getUserID());
+		y.addQuery('language',data.sys_id);
+		y.query();
+		console.log(y.getEncodedQuery());
+		if(y.next()){
+		return data.report;
+			
+		}
+		else{
+			y.setValue('language',data.sys_id);
+			y.setValue('user',gs.getUserID());
+			y.insert();
+		}
+	}*/
+	
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-11 10:44:07</sys_created_on>
+        <sys_id>3d8d9bb947713110425086c8436d431e</sys_id>
+        <sys_mod_count>202</sys_mod_count>
+        <sys_name>show Languages</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_update_name>sp_widget_3d8d9bb947713110425086c8436d431e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-12 15:53:14</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  
+<h5>
+  ${Aim it..!!}
+  </h5>
+<div class="panel panel-default"  ng-repeat="i in data.transportdet"  >
+ 
+ 
+
+ <div class="panel-body" >
+
+<div class="card" >
+
+     <div class="card-body" >
+    <b class="card-title">{{i.Language}} </b>
+    <p class="card-text">{{i.description}}</p>
+       <p class="card-text" >{{i.id}}</p>
+       <div class="mar-top-15 mar-bot-5">
+        <button class="btn btn-primary" ng-click="c.submit(i.Language,i.id,i.sys_id)">
+          Join {{i.Language}}
+        </button>
+      </div>
+    </div>
+
+   
+</div>
+  
+</div> 
+
+</div>
+<!---
+  
+  <input type="text" name="user" placeholder="enter name"ng-model="c.addcom"/>
+</div>
+<button class="btn btn-primary" ng-click="c.submit()">
+  ${submit}
+</button>
+-->
+</div>]]></template>
+    </sp_widget>
+</record_update>

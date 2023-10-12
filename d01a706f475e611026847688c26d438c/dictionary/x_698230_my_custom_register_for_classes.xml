@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2348b77947f13110425086c8436d4316" label="Register for classes" max_length="40" name="x_698230_my_custom_register_for_classes" type="collection">
+        <element display="true" label="Language" max_length="32" name="language" reference="x_698230_my_custom_language_broucher" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="language"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>
