@@ -11,12 +11,12 @@
 		//this func is called by a button in html
 		shared.currentLge=c.data.currentLge;
 		console.log(shared.currentLge.usercheck)
-	/*edit after closeure	if(shared.currentLge.usercheck=="survey already submitted")
+	if(shared.currentLge.usercheck=="survey already submitted")
 			{
 				alert("survey already submitted");
 				return;
 			}
-		else{*/
+		else{
 			
 		
 		//we store the currentlage data as obj in shared so tht it availble in embedded widget
@@ -39,7 +39,8 @@
 		});
 	//}
 	}
-}]]></client_script>
+}
+	]]></client_script>
         <controller_as>c</controller_as>
         <css/>
         <data_table>sp_instance</data_table>
@@ -92,14 +93,14 @@ console.log("query :"+userLge.getEncodedQuery());
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-26 07:11:21</sys_created_on>
         <sys_id>1ea3b90b4734f91026847688c26d43ba</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Survey Main widget</sys_name>
         <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
         <sys_policy/>
         <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
         <sys_update_name>sp_widget_1ea3b90b4734f91026847688c26d43ba</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-26 11:59:28</sys_updated_on>
+        <sys_updated_on>2023-10-12 12:02:00</sys_updated_on>
         <template><![CDATA[<div ng-if="data.currentLge">
   <button ng-click="c.onBrowseLang('lg')" class="adopt btn btn-primary">
      ${Please fill the survey}   
