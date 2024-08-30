@@ -3,7 +3,6 @@
         <active>true</active>
         <app_config display_value="My custom App Config">1fa7bd1a71f62910cd3707b825ed2ba7</app_config>
         <description/>
-        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[ {
   "eventMappingId" : "clddhhlkqjpaachhiiddfggzjjvfffilxo",
   "isConfiguration" : false,

@@ -30,7 +30,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>RECproducer for restapi</name>
+        <name>REC</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -87,14 +87,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-06-09 10:00:56</sys_created_on>
         <sys_id>098e648e4793211026847688c26d4319</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>RECproducer for restapi</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>REC</sys_name>
         <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
         <sys_policy/>
         <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
         <sys_update_name>sc_cat_item_producer_098e648e4793211026847688c26d4319</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-28 15:16:15</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-07-14 20:58:24</sys_updated_on>
         <table_name>incident</table_name>
         <taxonomy_topic/>
         <template/>
@@ -102,7 +102,6 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>6</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

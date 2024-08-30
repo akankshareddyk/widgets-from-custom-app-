@@ -17,7 +17,6 @@
         <messages/>
         <name>hide attachment on feilds</name>
         <order/>
-        <published_ref/>
         <script><![CDATA[function onSubmit() {
    //Type appropriate comment here, and begin script below
   var f = g_form.getValue('trained_on');

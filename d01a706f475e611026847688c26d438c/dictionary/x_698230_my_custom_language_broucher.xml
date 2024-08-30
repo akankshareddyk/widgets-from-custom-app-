@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="68716bfd47713110425086c8436d4302" label="language broucher" max_length="40" name="x_698230_my_custom_language_broucher" type="collection">
-        <element label="Description" max_length="120" name="description" type="string"/>
-        <element label="ID" max_length="40" name="id" type="integer"/>
-        <element display="true" label="Languages" max_length="40" name="languages" type="string"/>
-    </element>
-</database>

@@ -1,16 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_visibility">
     <par_dashboard_visibility action="INSERT_OR_UPDATE">
         <dashboard display_value="My custom App">d3a7bd1aa8f62910b47ff2e48e8fe0a1</dashboard>
         <experience display_value="My custom App">9fa7bd1a0bf62910b64cbd8f89e563a1</experience>
         <sys_class_name>par_dashboard_visibility</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-16 13:27:15</sys_created_on>
-        <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>9ba7bd1a68f62910ec88e59ecfd152a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
-        <sys_overrides/>
         <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
         <sys_policy/>
         <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>

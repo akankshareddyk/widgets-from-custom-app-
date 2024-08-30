@@ -9,7 +9,6 @@
             <item display_table="ais_search_profile" display_value="My custom App search profile" endquery="false" field="search_profile" goto="false" newquery="false" operator="=" or="false" value="97a7bd1a68f6291073eb6b8b2210d3a7"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
-        <pretrained>false</pretrained>
         <profile display_value="My custom App search profile">97a7bd1a68f6291073eb6b8b2210d3a7</profile>
         <request_source>api</request_source>
         <solution_label>ais_relevancy_97a7bd1a68f6291073eb6b8b2210d3a7</solution_label>

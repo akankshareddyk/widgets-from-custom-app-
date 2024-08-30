@@ -3,9 +3,8 @@
         <active>true</active>
         <app_config display_value="My custom App Config">1fa7bd1a71f62910cd3707b825ed2ba7</app_config>
         <description/>
-        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings/>
-        <macroponent display_value="Visualization designer">2d5dcc29c3110110d938e4788940dd8f</macroponent>
+        <macroponent display_value="Visualization Designer">2d5dcc29c3110110d938e4788940dd8f</macroponent>
         <macroponent_config>{
   "sysid" : "",
   "label" : "",

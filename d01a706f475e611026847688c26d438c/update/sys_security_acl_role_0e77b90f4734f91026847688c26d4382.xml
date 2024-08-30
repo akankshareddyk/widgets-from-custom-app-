@@ -14,6 +14,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-08-26 07:27:21</sys_updated_on>
         <sys_user_role display_value="x_698230_my_custom.custom_survey_user" name="x_698230_my_custom.custom_survey_user">b577398b4734f91026847688c26d43d5</sys_user_role>
-        <transaction_id/>
     </sys_security_acl_role>
 </record_update>

@@ -8,7 +8,6 @@
         <container_class_name/>
         <name>Portal Meum Homepage - Container 2</name>
         <order>2</order>
-        <semantic_tag/>
         <sp_page display_value="cp_cust">ab4be5bd472a611026847688c26d4328</sp_page>
         <subheader>false</subheader>
         <sys_class_name>sp_container</sys_class_name>
