@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function() {
+        /* widget controller */
+        var c = this;
+        c.submit = function(n) {
+			    c.data.loc = n.loc;
+            c.server.update().then(function() {
+				console.log(c.data.loc)
+            })
+        }
+		var test=c.data.response_received;
+		var test1=c.data.responseError;
+		
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>ip_address</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Ip address widget</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+try { 
+ var r = new sn_ws.RESTMessageV2('x_698230_my_custom.IPInfo', 'Default GET');
+ r.setStringParameterNoEscape('ipaddress',input.loc);
+ var response = r.execute();
+ var responseBody = response.getBody();
+ var httpStatus = response.getStatusCode();
+ console.log(responseBody)
+ if(httpStatus==200){
+	data.response_received=responseBody
+	data.httpStatus=httpStatus;
+	console.log(data.response_received+"res")
+		console.log(data.httpStatus+"res status")
+
+}
+else{
+	data.responseError="No Location found"
+}
+}
+catch(ex) {
+ var message = ex.message;
+}
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 08:26:02</sys_created_on>
+        <sys_id>8359dc7ec3321210aaa1b92ed40131e8</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>Ip address widget</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_update_name>sp_widget_8359dc7ec3321210aaa1b92ed40131e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 10:50:25</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+<div>
+   <label for="name">Lookup for address:</label>
+  </div>
+  <div class="input-group">
+      <input type="text" ng-model="n.loc" class="form-control" placeholder="Enter your ipaddress">
+      <div class="input-group-btn">
+        <button type="submit" ng-click="c.submit(n)" class="btn btn-primary">Search</button>
+      </div>
+  
+    </div>
+    <text ng-if='data.httpStatus==200' >{{data.response_received}}</text>
+  <text ng-if='data.httpStatus!=200'>{{data.responseError}}</text>
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>8359dc7ec3321210aaa1b92ed40131e8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 08:26:01</sys_created_on>
+        <sys_id>d179dc3ec3321210aaa1b92ed4013106</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 08:26:01</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
