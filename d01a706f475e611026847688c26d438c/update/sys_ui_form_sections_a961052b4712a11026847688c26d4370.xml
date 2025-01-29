@@ -16,17 +16,31 @@
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-13 10:42:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e9a8d086c3c31210aaa1b92ed40131d9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_698230_my_custom_star_education" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">a961052b4712a11026847688c26d4370</sys_ui_form>
+            <sys_ui_section caption="Html Feild" display_value="Html Feild" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">ada8d086c3c31210aaa1b92ed40131d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-13 10:42:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
             <sys_created_by>akanksha</sys_created_by>
             <sys_created_on>2023-04-25 10:11:07</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>a561052b4712a11026847688c26d4374</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_698230_my_custom_star_education" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">a961052b4712a11026847688c26d4370</sys_ui_form>
             <sys_ui_section caption="Details" display_value="Details" name="x_698230_my_custom_star_education" sys_domain="global" view="Default view">a561052b4712a11026847688c26d436f</sys_ui_section>
-            <sys_updated_by>akanksha</sys_updated_by>
-            <sys_updated_on>2023-04-25 10:11:07</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-13 10:42:45</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_698230_my_custom_star_education</name>

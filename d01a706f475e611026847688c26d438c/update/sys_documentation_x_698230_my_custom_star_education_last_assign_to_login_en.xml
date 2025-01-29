@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="last_assign_to_login" label="Last assign to login" language="en" table="x_698230_my_custom_star_education">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>last_assign_to_login</element>
+            <help/>
+            <hint/>
+            <label>Last assign to login</label>
+            <language>en</language>
+            <name>x_698230_my_custom_star_education</name>
+            <plural>Last assign to logins</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-23 14:18:47</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Last assign to login</sys_name>
+            <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+            <sys_update_name>sys_documentation_x_698230_my_custom_star_education_last_assign_to_login_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-23 14:18:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,60 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="508a7caf475e611026847688c26d43c7" label="Star Education" max_length="40" name="x_698230_my_custom_star_education" text_index="true" type="collection">
-        <element label="Additional Comments" max_length="4000" name="additional_comments" type="journal_input"/>
-        <element label="Admin Date" max_length="40" name="admin_date" type="glide_date"/>
-        <element choice="3" default="New" label="Admin Status" max_length="40" name="admin_status" type="integer">
-            <choice>
-                <element inactive_on_update="false" label="New" sequence="100" value="1"/>
-                <element inactive_on_update="false" label="In Progress" sequence="200" value="2"/>
-                <element inactive_on_update="false" label="On Hold" sequence="300" value="3"/>
-                <element inactive_on_update="false" label="Resolved" sequence="400" value="4"/>
-                <element inactive_on_update="false" label="Closed" sequence="500" value="5"/>
-            </choice>
-        </element>
         <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Admission Number" mandatory="true" max_length="32" name="admission_number" type="string" use_dynamic_default="true"/>
         <element label="Aggregate" max_length="40" name="aggregate" type="integer"/>
+        <element label="htmlfeild" max_length="8000" name="htmlfeild" type="html"/>
         <element attributes="ref_contributions=star_ui_caller_id" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
-        <element label="Father Cell" max_length="40" name="father_cell" type="integer"/>
+        <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
         <element label="Father Name" max_length="40" name="father_name" type="string"/>
-        <element label="Fee" max_length="20" name="fee" type="string"/>
-        <element label="Grade" max_length="40" name="grade" type="string"/>
-        <element label="Home Address" max_length="40" name="home_address" type="string"/>
         <element label="Mother Cell" max_length="40" name="mother_cell" type="integer"/>
+        <element label="School" max_length="40" name="school" type="string"/>
+        <element label="Has Attachment" max_length="40" name="u_boolean_1" type="boolean"/>
+        <element label="Fee" max_length="20" name="fee" type="string"/>
         <element label="Mother Name" max_length="40" name="mother_name" type="string"/>
+        <element label="School Address" max_length="40" name="school_address" type="string"/>
+        <element label="File Attachment" max_length="40" name="u_file_attachment_1" type="file_attachment"/>
+        <element label="Grade" max_length="40" name="grade" type="string"/>
         <element choice="3" label="On hold reason" max_length="40" name="on_hold_reason" type="string">
             <choice>
                 <element inactive_on_update="false" label="Awaiting for caller" value="awaiting_caller"/>
                 <element inactive_on_update="false" label="Doesnt met requirement" value="doesnt"/>
             </choice>
         </element>
+        <element label="Student Name" max_length="40" name="student_name" type="string"/>
+        <element label="Worknotes" max_length="4000" name="worknotes" type="journal_input"/>
+        <element label="Father Cell" max_length="40" name="father_cell" type="integer"/>
+        <element label="Home Address" max_length="3000" name="home_address" type="string"/>
         <element choice="1" label="Purpose of Join" max_length="40" name="purpose_of_join" type="string">
             <choice>
                 <element inactive_on_update="false" label="Tution -Studies" sequence="100" value="tution"/>
                 <element inactive_on_update="false" label="Summer Camp" sequence="200" value="summer"/>
             </choice>
         </element>
-        <element label="School" max_length="40" name="school" type="string"/>
-        <element label="School Address" max_length="40" name="school_address" type="string"/>
-        <element label="Student Name" max_length="40" name="student_name" type="string"/>
         <element choice="1" label="Trained On" max_length="40" name="trained_on" type="string">
             <choice>
                 <element inactive_on_update="false" label="Art&amp;Craft" sequence="100" value="art"/>
-                <element inactive_on_update="false" label="Subject knowledge" sequence="200" value="subject"/>
-                <element inactive_on_update="false" label="Computer Course" sequence="300" value="computer"/>
-                <element inactive_on_update="false" label="Swimming" sequence="400" value="swimming"/>
-                <element inactive_on_update="false" label="Karate" sequence="500" value="karate"/>
-                <element inactive_on_update="false" label="Dance" sequence="600" value="dance"/>
                 <element inactive_on_update="false" label="Games &amp; sports" sequence="700" value="games"/>
+                <element inactive_on_update="false" label="Karate" sequence="500" value="karate"/>
+                <element inactive_on_update="false" label="Computer Course" sequence="300" value="computer"/>
+                <element inactive_on_update="false" label="Dance" sequence="600" value="dance"/>
+                <element inactive_on_update="false" label="Swimming" sequence="400" value="swimming"/>
+                <element inactive_on_update="false" label="Subject knowledge" sequence="200" value="subject"/>
             </choice>
         </element>
-        <element label="Has Attachment" max_length="40" name="u_boolean_1" type="boolean"/>
-        <element label="File Attachment" max_length="40" name="u_file_attachment_1" type="file_attachment"/>
-        <element label="Worknotes" max_length="4000" name="worknotes" type="journal_input"/>
+        <element label="Additional Comments" max_length="4000" name="additional_comments" type="journal_input"/>
+        <element label="Admin Date" max_length="40" name="admin_date" type="glide_date"/>
+        <element choice="3" default="New" label="Admin Status" max_length="40" name="admin_status" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Closed" sequence="500" value="5"/>
+                <element inactive_on_update="false" label="On Hold" sequence="300" value="3"/>
+                <element inactive_on_update="false" label="Resolved" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="In Progress" sequence="200" value="2"/>
+            </choice>
+        </element>
+        <element label="Last assign to login" max_length="40" name="last_assign_to_login" type="glide_date_time"/>
         <index name="index">
             <element name="admission_number"/>
         </index>
         <index name="index2">
             <element name="assigned_to"/>
+        </index>
+        <index name="index3">
+            <element name="assignment_group"/>
         </index>
     </element>
 </database>

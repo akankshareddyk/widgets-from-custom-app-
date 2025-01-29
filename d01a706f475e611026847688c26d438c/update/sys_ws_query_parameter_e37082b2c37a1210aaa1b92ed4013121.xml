@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter">
+    <sys_ws_query_parameter action="INSERT_OR_UPDATE">
+        <example_value>active=true</example_value>
+        <name>ni_query</name>
+        <required>false</required>
+        <short_description>Encoded query for searching for specific NeedIt records</short_description>
+        <sys_class_name>sys_ws_query_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 15:56:38</sys_created_on>
+        <sys_id>e37082b2c37a1210aaa1b92ed4013121</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ni_query</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_update_name>sys_ws_query_parameter_e37082b2c37a1210aaa1b92ed4013121</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 15:57:07</sys_updated_on>
+        <web_service_definition display_value="test">695ffc7ec3f21210aaa1b92ed40131d9</web_service_definition>
+    </sys_ws_query_parameter>
+</record_update>

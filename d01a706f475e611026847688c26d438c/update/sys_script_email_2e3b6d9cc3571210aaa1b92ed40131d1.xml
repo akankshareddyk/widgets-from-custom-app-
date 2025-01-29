@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>email.button.approve.reject.insert</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    // Add your code here
+	var img ='/10off.png';
+    var response = "approve";
+	//template.print(img)
+    template.print(x_698230_my_custom.renderMailtoButton(img, response));
+    img = '/10on.png';
+	//template.print(img);
+    response = "reject";
+   template.print("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+x_698230_my_custom.renderMailtoButton(img, response));
+    
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 16:30:12</sys_created_on>
+        <sys_id>2e3b6d9cc3571210aaa1b92ed40131d1</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>email.button.approve.reject.insert</sys_name>
+        <sys_package display_value="My custom App" source="x_698230_my_custom">d01a706f475e611026847688c26d438c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My custom App">d01a706f475e611026847688c26d438c</sys_scope>
+        <sys_update_name>sys_script_email_2e3b6d9cc3571210aaa1b92ed40131d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 17:14:27</sys_updated_on>
+    </sys_script_email>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>2e3b6d9cc3571210aaa1b92ed40131d1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 16:30:11</sys_created_on>
+        <sys_id>934b699cc3571210aaa1b92ed40131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 16:30:11</sys_updated_on>
+        <table>sys_script_email</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
